@@ -1,0 +1,7 @@
+language:
+  name: "italian"
+  code: "it"
+
+text-to-speech:
+  espeak:
+    voice: "it"
