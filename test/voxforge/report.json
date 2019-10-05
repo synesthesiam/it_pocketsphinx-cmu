@@ -1,0 +1,162 @@
+{
+  "statistics": {
+    "num_wavs": 9,
+    "num_words": 113,
+    "num_entities": 0,
+    "correct_transcriptions": 8,
+    "correct_intent_names": 0,
+    "correct_words": 112,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.9911504424778761,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1
+  },
+  "actual": {
+    "it-0160.wav": {
+      "text": "bisogna vedere dove si va disse carmaux e conoscere gli inquilini",
+      "transcribe_seconds": 0.41672420501708984,
+      "wav_seconds": 5.875,
+      "likelihood": 0.2200555031743049,
+      "word_error": {
+        "expected": "bisogna vedere dove si  va  disse carmaux e   conoscere gli inquilini",
+        "actual": "bisogna vedere dove si  va  disse carmaux e   conoscere gli inquilini",
+        "words": 11,
+        "correct": 11,
+        "errors": 0
+      }
+    },
+    "it-0159.wav": {
+      "text": "mi sembra il mezzo migliore per fare perdere le nostre tracce ai soldati",
+      "transcribe_seconds": 0.42948365211486816,
+      "wav_seconds": 5.625,
+      "likelihood": 0.020257058615473635,
+      "word_error": {
+        "expected": "mi  sembra il  mezzo migliore per fare perdere le  nostre tracce ai  soldati",
+        "actual": "mi  sembra il  mezzo migliore per fare perdere le  nostre tracce ai  soldati",
+        "words": 13,
+        "correct": 13,
+        "errors": 0
+      }
+    },
+    "it-0155.wav": {
+      "text": "quando si furono rimessi dallo stupore il corsaro ed il suo compagno erano già lontani",
+      "transcribe_seconds": 0.440981388092041,
+      "wav_seconds": 6.875,
+      "likelihood": 0.22306905301077065,
+      "word_error": {
+        "expected": "quando si  furono rimessi dallo stupore il  corsaro ed  il  suo compagno erano già lontani",
+        "actual": "quando si  furono rimessi dallo stupore il  corsaro ed  il  suo compagno erano già lontani",
+        "words": 15,
+        "correct": 15,
+        "errors": 0
+      }
+    },
+    "it-0158.wav": {
+      "text": "egli si era rapidamente diretto verso la casa che chiudeva la estremità di quella viuzza",
+      "transcribe_seconds": 0.5080368518829346,
+      "wav_seconds": 6.625,
+      "likelihood": 0.16909306887809497,
+      "word_error": {
+        "expected": "egli si  era rapidamente diretto verso la  casa che chiudeva la  estremità di  quella viuzza",
+        "actual": "egli si  era rapidamente diretto verso la  casa che chiudeva la  estremità di  quella viuzza",
+        "words": 15,
+        "correct": 15,
+        "errors": 0
+      }
+    },
+    "it-0162.wav": {
+      "text": "non sarà certamente quest'uomo che ci darà dei fastidi disse il corsaro",
+      "transcribe_seconds": 0.3195784091949463,
+      "wav_seconds": 6.375,
+      "likelihood": 0.4681399560910381,
+      "word_error": {
+        "expected": "non sarà certamente quest'uomo che ci  darà dei fastidi disse il  corsaro",
+        "actual": "non sarà certamente quest'uomo che ci  darà dei fastidi disse il  corsaro",
+        "words": 12,
+        "correct": 12,
+        "errors": 0
+      }
+    },
+    "it-0154.wav": {
+      "text": "il corsaro nero aveva alzato la sciabola pronto scagliarsi",
+      "transcribe_seconds": 0.3315258026123047,
+      "wav_seconds": 5.625,
+      "likelihood": 0.5592451423601267,
+      "word_error": {
+        "expected": "il  corsaro nero aveva alzato la  sciabola pronto A   scagliarsi",
+        "actual": "il  corsaro nero aveva alzato la  sciabola pronto *** scagliarsi",
+        "words": 10,
+        "correct": 9,
+        "errors": 1
+      }
+    },
+    "it-0161.wav": {
+      "text": "dormiva cosí saporitamente da non accorgersi che la stanza era stata illuminata",
+      "transcribe_seconds": 0.453350305557251,
+      "wav_seconds": 6.75,
+      "likelihood": 0.32803689256015117,
+      "word_error": {
+        "expected": "dormiva cosí saporitamente da  non accorgersi che la  stanza era stata illuminata",
+        "actual": "dormiva cosí saporitamente da  non accorgersi che la  stanza era stata illuminata",
+        "words": 12,
+        "correct": 12,
+        "errors": 0
+      }
+    },
+    "it-0156.wav": {
+      "text": "il corsaro e carmaux correvano alla disperata senza però sapere dove andassero",
+      "transcribe_seconds": 0.6356463432312012,
+      "wav_seconds": 6.875,
+      "likelihood": 0.009128586956395688,
+      "word_error": {
+        "expected": "il  corsaro e   carmaux correvano alla disperata senza però sapere dove andassero",
+        "actual": "il  corsaro e   carmaux correvano alla disperata senza però sapere dove andassero",
+        "words": 12,
+        "correct": 12,
+        "errors": 0
+      }
+    },
+    "it-0157.wav": {
+      "text": "io credo che con un po' d'astuzia possiamo fare perdere le nostre tracce",
+      "transcribe_seconds": 0.35895490646362305,
+      "wav_seconds": 6,
+      "likelihood": 0.3736580868355302,
+      "word_error": {
+        "expected": "io  credo che con un  po' d'astuzia possiamo fare perdere le  nostre tracce",
+        "actual": "io  credo che con un  po' d'astuzia possiamo fare perdere le  nostre tracce",
+        "words": 13,
+        "correct": 13,
+        "errors": 0
+      }
+    }
+  },
+  "expected": {
+    "it-0160.wav": {
+      "text": "bisogna vedere dove si va disse carmaux e conoscere gli inquilini"
+    },
+    "it-0159.wav": {
+      "text": "mi sembra il mezzo migliore per fare perdere le nostre tracce ai soldati"
+    },
+    "it-0155.wav": {
+      "text": "quando si furono rimessi dallo stupore il corsaro ed il suo compagno erano già lontani"
+    },
+    "it-0158.wav": {
+      "text": "egli si era rapidamente diretto verso la casa che chiudeva la estremità di quella viuzza"
+    },
+    "it-0162.wav": {
+      "text": "non sarà certamente quest'uomo che ci darà dei fastidi disse il corsaro"
+    },
+    "it-0154.wav": {
+      "text": "il corsaro nero aveva alzato la sciabola pronto a scagliarsi"
+    },
+    "it-0161.wav": {
+      "text": "dormiva cosí saporitamente da non accorgersi che la stanza era stata illuminata"
+    },
+    "it-0156.wav": {
+      "text": "il corsaro e carmaux correvano alla disperata senza però sapere dove andassero"
+    },
+    "it-0157.wav": {
+      "text": "io credo che con un po' d'astuzia possiamo fare perdere le nostre tracce"
+    }
+  }
+}

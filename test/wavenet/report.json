@@ -1,0 +1,242 @@
+{
+  "statistics": {
+    "num_wavs": 14,
+    "num_words": 61,
+    "num_entities": 0,
+    "correct_transcriptions": 11,
+    "correct_intent_names": 0,
+    "correct_words": 58,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.9508196721311475,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1
+  },
+  "actual": {
+    "spegnere_la_lampada_del_soggiorno.wav": {
+      "text": "spegnere la lampada del soggiorno",
+      "transcribe_seconds": 0.050375938415527344,
+      "wav_seconds": 2.5808125,
+      "likelihood": 0.772958552411831,
+      "word_error": {
+        "expected": "spegnere la  lampada del soggiorno",
+        "actual": "spegnere la  lampada del soggiorno",
+        "words": 5,
+        "correct": 5,
+        "errors": 0
+      }
+    },
+    "che_ore_sono.wav": {
+      "text": "ore sono",
+      "transcribe_seconds": 0.03006267547607422,
+      "wav_seconds": 1.2226875,
+      "likelihood": 0.3348318467684259,
+      "word_error": {
+        "expected": "CHE ore sono",
+        "actual": "*** ore sono",
+        "words": 3,
+        "correct": 2,
+        "errors": 1
+      }
+    },
+    "la_porta_del_garage_è_aperta.wav": {
+      "text": "la porta del garage aperta",
+      "transcribe_seconds": 0.06878376007080078,
+      "wav_seconds": 2.3343125,
+      "likelihood": 0.9998999934083855,
+      "word_error": {
+        "expected": "la  porta del garage è  aperta",
+        "actual": "la  porta del garage *** aperta",
+        "words": 6,
+        "correct": 5,
+        "errors": 1
+      }
+    },
+    "spegnere_lampada_del_soggiorno.wav": {
+      "text": "spegnere lampada del soggiorno",
+      "transcribe_seconds": 0.05197310447692871,
+      "wav_seconds": 2.3243125,
+      "likelihood": 0.7935594646646593,
+      "word_error": {
+        "expected": "spegnere lampada del soggiorno",
+        "actual": "spegnere lampada del soggiorno",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "la_porta_del_garage_è_chiusa.wav": {
+      "text": "la porta del garage chiusa",
+      "transcribe_seconds": 0.06136274337768555,
+      "wav_seconds": 2.289625,
+      "likelihood": 0.00041817867938817946,
+      "word_error": {
+        "expected": "la  porta del garage è  chiusa",
+        "actual": "la  porta del garage *** chiusa",
+        "words": 6,
+        "correct": 5,
+        "errors": 1
+      }
+    },
+    "quanto_è_caldo.wav": {
+      "text": "quanto è caldo",
+      "transcribe_seconds": 0.039722442626953125,
+      "wav_seconds": 1.2764375,
+      "likelihood": 0.7771443051362777,
+      "word_error": {
+        "expected": "quanto è  caldo",
+        "actual": "quanto è  caldo",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "accendi_lampada_del_soggiorno.wav": {
+      "text": "accendi lampada del soggiorno",
+      "transcribe_seconds": 0.04901528358459473,
+      "wav_seconds": 2.254,
+      "likelihood": 0.763584668493338,
+      "word_error": {
+        "expected": "accendi lampada del soggiorno",
+        "actual": "accendi lampada del soggiorno",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "accendi_luce_del_garage.wav": {
+      "text": "accendi luce del garage",
+      "transcribe_seconds": 0.05289864540100098,
+      "wav_seconds": 1.8250625,
+      "likelihood": 0.9957087354199579,
+      "word_error": {
+        "expected": "accendi luce del garage",
+        "actual": "accendi luce del garage",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "spegnere_luce_del_garage.wav": {
+      "text": "spegnere luce del garage",
+      "transcribe_seconds": 0.05109429359436035,
+      "wav_seconds": 1.9299375,
+      "likelihood": 0.9945144632128712,
+      "word_error": {
+        "expected": "spegnere luce del garage",
+        "actual": "spegnere luce del garage",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "spegnere_la_luce_del_garage.wav": {
+      "text": "spegnere la luce del garage",
+      "transcribe_seconds": 0.05556035041809082,
+      "wav_seconds": 2.2345625,
+      "likelihood": 0.992924328202271,
+      "word_error": {
+        "expected": "spegnere la  luce del garage",
+        "actual": "spegnere la  luce del garage",
+        "words": 5,
+        "correct": 5,
+        "errors": 0
+      }
+    },
+    "accendi_la_luce_del_garage.wav": {
+      "text": "accendi la luce del garage",
+      "transcribe_seconds": 0.05627107620239258,
+      "wav_seconds": 2.1490625,
+      "likelihood": 0.9937190776437184,
+      "word_error": {
+        "expected": "accendi la  luce del garage",
+        "actual": "accendi la  luce del garage",
+        "words": 5,
+        "correct": 5,
+        "errors": 0
+      }
+    },
+    "quale_e_la_temperatura.wav": {
+      "text": "quale e la temperatura",
+      "transcribe_seconds": 0.04386472702026367,
+      "wav_seconds": 1.686375,
+      "likelihood": 0.9510336630933377,
+      "word_error": {
+        "expected": "quale e   la  temperatura",
+        "actual": "quale e   la  temperatura",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "accendi_la_lampada_del_soggiorno.wav": {
+      "text": "accendi la lampada del soggiorno",
+      "transcribe_seconds": 0.056943655014038086,
+      "wav_seconds": 2.4726875,
+      "likelihood": 0.813000140435791,
+      "word_error": {
+        "expected": "accendi la  lampada del soggiorno",
+        "actual": "accendi la  lampada del soggiorno",
+        "words": 5,
+        "correct": 5,
+        "errors": 0
+      }
+    },
+    "quanto_è_freddo.wav": {
+      "text": "quanto è freddo",
+      "transcribe_seconds": 0.03511667251586914,
+      "wav_seconds": 1.2436875,
+      "likelihood": 1,
+      "word_error": {
+        "expected": "quanto è  freddo",
+        "actual": "quanto è  freddo",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    }
+  },
+  "expected": {
+    "spegnere_la_lampada_del_soggiorno.wav": {
+      "text": "spegnere la lampada del soggiorno"
+    },
+    "che_ore_sono.wav": {
+      "text": "che ore sono"
+    },
+    "la_porta_del_garage_è_aperta.wav": {
+      "text": "la porta del garage è aperta"
+    },
+    "spegnere_lampada_del_soggiorno.wav": {
+      "text": "spegnere lampada del soggiorno"
+    },
+    "la_porta_del_garage_è_chiusa.wav": {
+      "text": "la porta del garage è chiusa"
+    },
+    "quanto_è_caldo.wav": {
+      "text": "quanto è caldo"
+    },
+    "accendi_lampada_del_soggiorno.wav": {
+      "text": "accendi lampada del soggiorno"
+    },
+    "accendi_luce_del_garage.wav": {
+      "text": "accendi luce del garage"
+    },
+    "spegnere_luce_del_garage.wav": {
+      "text": "spegnere luce del garage"
+    },
+    "spegnere_la_luce_del_garage.wav": {
+      "text": "spegnere la luce del garage"
+    },
+    "accendi_la_luce_del_garage.wav": {
+      "text": "accendi la luce del garage"
+    },
+    "quale_e_la_temperatura.wav": {
+      "text": "quale e la temperatura"
+    },
+    "accendi_la_lampada_del_soggiorno.wav": {
+      "text": "accendi la lampada del soggiorno"
+    },
+    "quanto_è_freddo.wav": {
+      "text": "quanto è freddo"
+    }
+  }
+}
