@@ -9,12 +9,22 @@
     "correct_entities": 0,
     "transcription_accuracy": 0.9911504424778761,
     "intent_accuracy": 1,
-    "entity_accuracy": 1
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 1,
+    "average_transcription_speedup": 14.71117876384886
   },
   "actual": {
     "it-0160.wav": {
       "text": "bisogna vedere dove si va disse carmaux e conoscere gli inquilini",
-      "transcribe_seconds": 0.41672420501708984,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00026917457580566406,
+      "transcribe_seconds": 0.4306662082672119,
       "wav_seconds": 5.875,
       "likelihood": 0.2200555031743049,
       "word_error": {
@@ -27,7 +37,15 @@
     },
     "it-0159.wav": {
       "text": "mi sembra il mezzo migliore per fare perdere le nostre tracce ai soldati",
-      "transcribe_seconds": 0.42948365211486816,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.6702880859375e-05,
+      "transcribe_seconds": 0.4703693389892578,
       "wav_seconds": 5.625,
       "likelihood": 0.020257058615473635,
       "word_error": {
@@ -40,7 +58,15 @@
     },
     "it-0155.wav": {
       "text": "quando si furono rimessi dallo stupore il corsaro ed il suo compagno erano già lontani",
-      "transcribe_seconds": 0.440981388092041,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.5510787963867188e-05,
+      "transcribe_seconds": 0.4756762981414795,
       "wav_seconds": 6.875,
       "likelihood": 0.22306905301077065,
       "word_error": {
@@ -53,7 +79,15 @@
     },
     "it-0158.wav": {
       "text": "egli si era rapidamente diretto verso la casa che chiudeva la estremità di quella viuzza",
-      "transcribe_seconds": 0.5080368518829346,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0001804828643798828,
+      "transcribe_seconds": 0.5312142372131348,
       "wav_seconds": 6.625,
       "likelihood": 0.16909306887809497,
       "word_error": {
@@ -66,7 +100,15 @@
     },
     "it-0162.wav": {
       "text": "non sarà certamente quest'uomo che ci darà dei fastidi disse il corsaro",
-      "transcribe_seconds": 0.3195784091949463,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00018143653869628906,
+      "transcribe_seconds": 0.3069741725921631,
       "wav_seconds": 6.375,
       "likelihood": 0.4681399560910381,
       "word_error": {
@@ -79,7 +121,15 @@
     },
     "it-0154.wav": {
       "text": "il corsaro nero aveva alzato la sciabola pronto scagliarsi",
-      "transcribe_seconds": 0.3315258026123047,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00017023086547851562,
+      "transcribe_seconds": 0.3359034061431885,
       "wav_seconds": 5.625,
       "likelihood": 0.5592451423601267,
       "word_error": {
@@ -92,7 +142,15 @@
     },
     "it-0161.wav": {
       "text": "dormiva cosí saporitamente da non accorgersi che la stanza era stata illuminata",
-      "transcribe_seconds": 0.453350305557251,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0001742839813232422,
+      "transcribe_seconds": 0.44230198860168457,
       "wav_seconds": 6.75,
       "likelihood": 0.32803689256015117,
       "word_error": {
@@ -105,7 +163,15 @@
     },
     "it-0156.wav": {
       "text": "il corsaro e carmaux correvano alla disperata senza però sapere dove andassero",
-      "transcribe_seconds": 0.6356463432312012,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00018095970153808594,
+      "transcribe_seconds": 0.5932662487030029,
       "wav_seconds": 6.875,
       "likelihood": 0.009128586956395688,
       "word_error": {
@@ -118,7 +184,15 @@
     },
     "it-0157.wav": {
       "text": "io credo che con un po' d'astuzia possiamo fare perdere le nostre tracce",
-      "transcribe_seconds": 0.35895490646362305,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00018453598022460938,
+      "transcribe_seconds": 0.386768102645874,
       "wav_seconds": 6,
       "likelihood": 0.3736580868355302,
       "word_error": {
