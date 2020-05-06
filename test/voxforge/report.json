@@ -1,236 +1,781 @@
 {
-  "statistics": {
-    "num_wavs": 9,
-    "num_words": 113,
-    "num_entities": 0,
-    "correct_transcriptions": 8,
-    "correct_intent_names": 0,
-    "correct_words": 112,
-    "correct_entities": 0,
-    "transcription_accuracy": 0.9911504424778761,
-    "intent_accuracy": 1,
-    "entity_accuracy": 1,
-    "intent_entity_accuracy": 1,
-    "average_transcription_speedup": 14.71117876384886
+  "expected": {
+    "it-0160.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "bisogna vedere dove si va disse carmaux e conoscere gli inquilini",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "it-0157.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "io credo che con un po' d'astuzia possiamo fare perdere le nostre tracce",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "it-0155.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "quando si furono rimessi dallo stupore il corsaro ed il suo compagno erano già lontani",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "it-0161.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "dormiva cosí saporitamente da non accorgersi che la stanza era stata illuminata",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "it-0156.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "il corsaro e carmaux correvano alla disperata senza però sapere dove andassero",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "it-0159.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "mi sembra il mezzo migliore per fare perdere le nostre tracce ai soldati",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "it-0162.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "non sarà certamente quest'uomo che ci darà dei fastidi disse il corsaro",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "it-0154.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "il corsaro nero aveva alzato la sciabola pronto a scagliarsi",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "it-0158.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "egli si era rapidamente diretto verso la casa che chiudeva la estremità di quella viuzza",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    }
   },
   "actual": {
     "it-0160.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
       "text": "bisogna vedere dove si va disse carmaux e conoscere gli inquilini",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00026917457580566406,
-      "transcribe_seconds": 0.4306662082672119,
+      "raw_text": "bisogna vedere dove si va disse carmaux e conoscere gli inquilini",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 5.875,
-      "likelihood": 0.2200555031743049,
+      "transcribe_seconds": 0.9701932269999816,
+      "speech_confidence": null,
+      "wav_name": "it-0160.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "bisogna vedere dove si  va  disse carmaux e   conoscere gli inquilini",
-        "actual": "bisogna vedere dove si  va  disse carmaux e   conoscere gli inquilini",
+        "reference": [
+          "bisogna",
+          "vedere",
+          "dove",
+          "si",
+          "va",
+          "disse",
+          "carmaux",
+          "e",
+          "conoscere",
+          "gli",
+          "inquilini"
+        ],
+        "hypothesis": [
+          "bisogna",
+          "vedere",
+          "dove",
+          "si",
+          "va",
+          "disse",
+          "carmaux",
+          "e",
+          "conoscere",
+          "gli",
+          "inquilini"
+        ],
+        "differences": [
+          "bisogna",
+          "vedere",
+          "dove",
+          "si",
+          "va",
+          "disse",
+          "carmaux",
+          "e",
+          "conoscere",
+          "gli",
+          "inquilini"
+        ],
         "words": 11,
-        "correct": 11,
-        "errors": 0
-      }
-    },
-    "it-0159.wav": {
-      "text": "mi sembra il mezzo migliore per fare perdere le nostre tracce ai soldati",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 2.6702880859375e-05,
-      "transcribe_seconds": 0.4703693389892578,
-      "wav_seconds": 5.625,
-      "likelihood": 0.020257058615473635,
-      "word_error": {
-        "expected": "mi  sembra il  mezzo migliore per fare perdere le  nostre tracce ai  soldati",
-        "actual": "mi  sembra il  mezzo migliore per fare perdere le  nostre tracce ai  soldati",
-        "words": 13,
-        "correct": 13,
-        "errors": 0
-      }
-    },
-    "it-0155.wav": {
-      "text": "quando si furono rimessi dallo stupore il corsaro ed il suo compagno erano già lontani",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 2.5510787963867188e-05,
-      "transcribe_seconds": 0.4756762981414795,
-      "wav_seconds": 6.875,
-      "likelihood": 0.22306905301077065,
-      "word_error": {
-        "expected": "quando si  furono rimessi dallo stupore il  corsaro ed  il  suo compagno erano già lontani",
-        "actual": "quando si  furono rimessi dallo stupore il  corsaro ed  il  suo compagno erano già lontani",
-        "words": 15,
-        "correct": 15,
-        "errors": 0
-      }
-    },
-    "it-0158.wav": {
-      "text": "egli si era rapidamente diretto verso la casa che chiudeva la estremità di quella viuzza",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0001804828643798828,
-      "transcribe_seconds": 0.5312142372131348,
-      "wav_seconds": 6.625,
-      "likelihood": 0.16909306887809497,
-      "word_error": {
-        "expected": "egli si  era rapidamente diretto verso la  casa che chiudeva la  estremità di  quella viuzza",
-        "actual": "egli si  era rapidamente diretto verso la  casa che chiudeva la  estremità di  quella viuzza",
-        "words": 15,
-        "correct": 15,
-        "errors": 0
-      }
-    },
-    "it-0162.wav": {
-      "text": "non sarà certamente quest'uomo che ci darà dei fastidi disse il corsaro",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00018143653869628906,
-      "transcribe_seconds": 0.3069741725921631,
-      "wav_seconds": 6.375,
-      "likelihood": 0.4681399560910381,
-      "word_error": {
-        "expected": "non sarà certamente quest'uomo che ci  darà dei fastidi disse il  corsaro",
-        "actual": "non sarà certamente quest'uomo che ci  darà dei fastidi disse il  corsaro",
-        "words": 12,
-        "correct": 12,
-        "errors": 0
-      }
-    },
-    "it-0154.wav": {
-      "text": "il corsaro nero aveva alzato la sciabola pronto scagliarsi",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00017023086547851562,
-      "transcribe_seconds": 0.3359034061431885,
-      "wav_seconds": 5.625,
-      "likelihood": 0.5592451423601267,
-      "word_error": {
-        "expected": "il  corsaro nero aveva alzato la  sciabola pronto A   scagliarsi",
-        "actual": "il  corsaro nero aveva alzato la  sciabola pronto *** scagliarsi",
-        "words": 10,
-        "correct": 9,
-        "errors": 1
-      }
-    },
-    "it-0161.wav": {
-      "text": "dormiva cosí saporitamente da non accorgersi che la stanza era stata illuminata",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0001742839813232422,
-      "transcribe_seconds": 0.44230198860168457,
-      "wav_seconds": 6.75,
-      "likelihood": 0.32803689256015117,
-      "word_error": {
-        "expected": "dormiva cosí saporitamente da  non accorgersi che la  stanza era stata illuminata",
-        "actual": "dormiva cosí saporitamente da  non accorgersi che la  stanza era stata illuminata",
-        "words": 12,
-        "correct": 12,
-        "errors": 0
-      }
-    },
-    "it-0156.wav": {
-      "text": "il corsaro e carmaux correvano alla disperata senza però sapere dove andassero",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00018095970153808594,
-      "transcribe_seconds": 0.5932662487030029,
-      "wav_seconds": 6.875,
-      "likelihood": 0.009128586956395688,
-      "word_error": {
-        "expected": "il  corsaro e   carmaux correvano alla disperata senza però sapere dove andassero",
-        "actual": "il  corsaro e   carmaux correvano alla disperata senza però sapere dove andassero",
-        "words": 12,
-        "correct": 12,
-        "errors": 0
+        "errors": 0,
+        "matches": 11,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
     "it-0157.wav": {
-      "text": "io credo che con un po' d'astuzia possiamo fare perdere le nostre tracce",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00018453598022460938,
-      "transcribe_seconds": 0.386768102645874,
+      "text": "io credo che con un po' d'astuzia possiamo fare perdere le nostre tracce",
+      "raw_text": "io credo che con un po' d'astuzia possiamo fare perdere le nostre tracce",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 6,
-      "likelihood": 0.3736580868355302,
+      "transcribe_seconds": 0.9823735509999096,
+      "speech_confidence": null,
+      "wav_name": "it-0157.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "io  credo che con un  po' d'astuzia possiamo fare perdere le  nostre tracce",
-        "actual": "io  credo che con un  po' d'astuzia possiamo fare perdere le  nostre tracce",
+        "reference": [
+          "io",
+          "credo",
+          "che",
+          "con",
+          "un",
+          "po'",
+          "d'astuzia",
+          "possiamo",
+          "fare",
+          "perdere",
+          "le",
+          "nostre",
+          "tracce"
+        ],
+        "hypothesis": [
+          "io",
+          "credo",
+          "che",
+          "con",
+          "un",
+          "po'",
+          "d'astuzia",
+          "possiamo",
+          "fare",
+          "perdere",
+          "le",
+          "nostre",
+          "tracce"
+        ],
+        "differences": [
+          "io",
+          "credo",
+          "che",
+          "con",
+          "un",
+          "po'",
+          "d'astuzia",
+          "possiamo",
+          "fare",
+          "perdere",
+          "le",
+          "nostre",
+          "tracce"
+        ],
         "words": 13,
-        "correct": 13,
-        "errors": 0
+        "errors": 0,
+        "matches": 13,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "it-0155.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "quando si furono rimessi dallo stupore il corsaro ed il suo compagno erano già lontani",
+      "raw_text": "quando si furono rimessi dallo stupore il corsaro ed il suo compagno erano già lontani",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.875,
+      "transcribe_seconds": 1.0110104689993022,
+      "speech_confidence": null,
+      "wav_name": "it-0155.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "quando",
+          "si",
+          "furono",
+          "rimessi",
+          "dallo",
+          "stupore",
+          "il",
+          "corsaro",
+          "ed",
+          "il",
+          "suo",
+          "compagno",
+          "erano",
+          "già",
+          "lontani"
+        ],
+        "hypothesis": [
+          "quando",
+          "si",
+          "furono",
+          "rimessi",
+          "dallo",
+          "stupore",
+          "il",
+          "corsaro",
+          "ed",
+          "il",
+          "suo",
+          "compagno",
+          "erano",
+          "già",
+          "lontani"
+        ],
+        "differences": [
+          "quando",
+          "si",
+          "furono",
+          "rimessi",
+          "dallo",
+          "stupore",
+          "il",
+          "corsaro",
+          "ed",
+          "il",
+          "suo",
+          "compagno",
+          "erano",
+          "già",
+          "lontani"
+        ],
+        "words": 15,
+        "errors": 0,
+        "matches": 15,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "it-0161.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "dormiva cosí saporitamente da non accorgersi che la stanza era stata illuminata",
+      "raw_text": "dormiva cosí saporitamente da non accorgersi che la stanza era stata illuminata",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.75,
+      "transcribe_seconds": 0.9500971550005488,
+      "speech_confidence": null,
+      "wav_name": "it-0161.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "dormiva",
+          "cosí",
+          "saporitamente",
+          "da",
+          "non",
+          "accorgersi",
+          "che",
+          "la",
+          "stanza",
+          "era",
+          "stata",
+          "illuminata"
+        ],
+        "hypothesis": [
+          "dormiva",
+          "cosí",
+          "saporitamente",
+          "da",
+          "non",
+          "accorgersi",
+          "che",
+          "la",
+          "stanza",
+          "era",
+          "stata",
+          "illuminata"
+        ],
+        "differences": [
+          "dormiva",
+          "cosí",
+          "saporitamente",
+          "da",
+          "non",
+          "accorgersi",
+          "che",
+          "la",
+          "stanza",
+          "era",
+          "stata",
+          "illuminata"
+        ],
+        "words": 12,
+        "errors": 0,
+        "matches": 12,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "it-0156.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "il corsaro e carmaux correvano alla disperata senza però sapere dove andassero",
+      "raw_text": "il corsaro e carmaux correvano alla disperata senza però sapere dove andassero",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.875,
+      "transcribe_seconds": 1.1680361610015098,
+      "speech_confidence": null,
+      "wav_name": "it-0156.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "il",
+          "corsaro",
+          "e",
+          "carmaux",
+          "correvano",
+          "alla",
+          "disperata",
+          "senza",
+          "però",
+          "sapere",
+          "dove",
+          "andassero"
+        ],
+        "hypothesis": [
+          "il",
+          "corsaro",
+          "e",
+          "carmaux",
+          "correvano",
+          "alla",
+          "disperata",
+          "senza",
+          "però",
+          "sapere",
+          "dove",
+          "andassero"
+        ],
+        "differences": [
+          "il",
+          "corsaro",
+          "e",
+          "carmaux",
+          "correvano",
+          "alla",
+          "disperata",
+          "senza",
+          "però",
+          "sapere",
+          "dove",
+          "andassero"
+        ],
+        "words": 12,
+        "errors": 0,
+        "matches": 12,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "it-0159.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "mi sembra il mezzo migliore per fare perdere le nostre tracce ai soldati",
+      "raw_text": "mi sembra il mezzo migliore per fare perdere le nostre tracce ai soldati",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.625,
+      "transcribe_seconds": 0.9827697559994704,
+      "speech_confidence": null,
+      "wav_name": "it-0159.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "mi",
+          "sembra",
+          "il",
+          "mezzo",
+          "migliore",
+          "per",
+          "fare",
+          "perdere",
+          "le",
+          "nostre",
+          "tracce",
+          "ai",
+          "soldati"
+        ],
+        "hypothesis": [
+          "mi",
+          "sembra",
+          "il",
+          "mezzo",
+          "migliore",
+          "per",
+          "fare",
+          "perdere",
+          "le",
+          "nostre",
+          "tracce",
+          "ai",
+          "soldati"
+        ],
+        "differences": [
+          "mi",
+          "sembra",
+          "il",
+          "mezzo",
+          "migliore",
+          "per",
+          "fare",
+          "perdere",
+          "le",
+          "nostre",
+          "tracce",
+          "ai",
+          "soldati"
+        ],
+        "words": 13,
+        "errors": 0,
+        "matches": 13,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "it-0162.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "non sarà certamente quest'uomo che ci darà dei fastidi disse il corsaro",
+      "raw_text": "non sarà certamente quest'uomo che ci darà dei fastidi disse il corsaro",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.375,
+      "transcribe_seconds": 0.7734132449986646,
+      "speech_confidence": null,
+      "wav_name": "it-0162.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "non",
+          "sarà",
+          "certamente",
+          "quest'uomo",
+          "che",
+          "ci",
+          "darà",
+          "dei",
+          "fastidi",
+          "disse",
+          "il",
+          "corsaro"
+        ],
+        "hypothesis": [
+          "non",
+          "sarà",
+          "certamente",
+          "quest'uomo",
+          "che",
+          "ci",
+          "darà",
+          "dei",
+          "fastidi",
+          "disse",
+          "il",
+          "corsaro"
+        ],
+        "differences": [
+          "non",
+          "sarà",
+          "certamente",
+          "quest'uomo",
+          "che",
+          "ci",
+          "darà",
+          "dei",
+          "fastidi",
+          "disse",
+          "il",
+          "corsaro"
+        ],
+        "words": 12,
+        "errors": 0,
+        "matches": 12,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "it-0154.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "il corsaro nero aveva alzato la sciabola pronto scagliarsi",
+      "raw_text": "il corsaro nero aveva alzato la sciabola pronto scagliarsi",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.625,
+      "transcribe_seconds": 0.6733206399985647,
+      "speech_confidence": null,
+      "wav_name": "it-0154.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "il",
+          "corsaro",
+          "nero",
+          "aveva",
+          "alzato",
+          "la",
+          "sciabola",
+          "pronto",
+          "a",
+          "scagliarsi"
+        ],
+        "hypothesis": [
+          "il",
+          "corsaro",
+          "nero",
+          "aveva",
+          "alzato",
+          "la",
+          "sciabola",
+          "pronto",
+          "scagliarsi"
+        ],
+        "differences": [
+          "il",
+          "corsaro",
+          "nero",
+          "aveva",
+          "alzato",
+          "la",
+          "sciabola",
+          "pronto",
+          "-a",
+          "scagliarsi"
+        ],
+        "words": 10,
+        "errors": 1,
+        "matches": 9,
+        "substitutions": 0,
+        "deletions": 1,
+        "insertions": 0,
+        "error_rate": 0.1
+      }
+    },
+    "it-0158.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "egli si era rapidamente diretto verso la casa che chiudeva la estremità di quella viuzza",
+      "raw_text": "egli si era rapidamente diretto verso la casa che chiudeva la estremità di quella viuzza",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.625,
+      "transcribe_seconds": 0.9017761319992132,
+      "speech_confidence": null,
+      "wav_name": "it-0158.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "egli",
+          "si",
+          "era",
+          "rapidamente",
+          "diretto",
+          "verso",
+          "la",
+          "casa",
+          "che",
+          "chiudeva",
+          "la",
+          "estremità",
+          "di",
+          "quella",
+          "viuzza"
+        ],
+        "hypothesis": [
+          "egli",
+          "si",
+          "era",
+          "rapidamente",
+          "diretto",
+          "verso",
+          "la",
+          "casa",
+          "che",
+          "chiudeva",
+          "la",
+          "estremità",
+          "di",
+          "quella",
+          "viuzza"
+        ],
+        "differences": [
+          "egli",
+          "si",
+          "era",
+          "rapidamente",
+          "diretto",
+          "verso",
+          "la",
+          "casa",
+          "che",
+          "chiudeva",
+          "la",
+          "estremità",
+          "di",
+          "quella",
+          "viuzza"
+        ],
+        "words": 15,
+        "errors": 0,
+        "matches": 15,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     }
   },
-  "expected": {
-    "it-0160.wav": {
-      "text": "bisogna vedere dove si va disse carmaux e conoscere gli inquilini"
-    },
-    "it-0159.wav": {
-      "text": "mi sembra il mezzo migliore per fare perdere le nostre tracce ai soldati"
-    },
-    "it-0155.wav": {
-      "text": "quando si furono rimessi dallo stupore il corsaro ed il suo compagno erano già lontani"
-    },
-    "it-0158.wav": {
-      "text": "egli si era rapidamente diretto verso la casa che chiudeva la estremità di quella viuzza"
-    },
-    "it-0162.wav": {
-      "text": "non sarà certamente quest'uomo che ci darà dei fastidi disse il corsaro"
-    },
-    "it-0154.wav": {
-      "text": "il corsaro nero aveva alzato la sciabola pronto a scagliarsi"
-    },
-    "it-0161.wav": {
-      "text": "dormiva cosí saporitamente da non accorgersi che la stanza era stata illuminata"
-    },
-    "it-0156.wav": {
-      "text": "il corsaro e carmaux correvano alla disperata senza però sapere dove andassero"
-    },
-    "it-0157.wav": {
-      "text": "io credo che con un po' d'astuzia possiamo fare perdere le nostre tracce"
-    }
-  }
+  "num_wavs": 9,
+  "num_words": 113,
+  "num_intents": 0,
+  "num_entities": 0,
+  "correct_transcriptions": 8,
+  "correct_intent_names": 0,
+  "correct_words": 112,
+  "correct_entities": 0,
+  "correct_intent_and_entities": 0,
+  "transcription_accuracy": 0.9911504424778761,
+  "intent_accuracy": 1,
+  "entity_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "average_transcription_speedup": 6.846755071986385
 }
