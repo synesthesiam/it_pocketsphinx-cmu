@@ -32,8 +32,8 @@ default:
     file-name: base_dictionary.txt
     sha256: 291706733ad0418b81241e2da09b9d40280c7bff8e846e1023e097cf59393d3d
   profile.yml:
-    bytes: 479
-    sha256: 2ec5df50a25f25746e317060a435dff2c1a0ab9ed71c842bf4b0af6a0539ec44
+    bytes: 518
+    sha256: 77c33c971250eee1dcf5623b0127eeae3cc3fe9210fc5e17a4d39cf8feba0430
   slot_programs/rhasspy/number:
     bytes: 651
     sha256: d1f10ccea552c2c9ba2a59dd69705f8e82545592c7db5ca7078b462ed9d08387
@@ -43,6 +43,10 @@ default:
 
 # Files needed to guess word pronunciations
 grapheme-to-phoneme:
+  g2p.corpus.gz:
+    bytes: 40096
+    file-name: g2p.corpus
+    sha256: 87b65f5cce3a9999e8f9ddf577b3b310e3a647f63f6ac066830f1af708d90c03
   g2p.fst.gz:
     bytes: 768941
     file-name: g2p.fst
@@ -65,8 +69,8 @@ mixed-language-model:
 # Files needed for text to speech
 text-to-speech:
   espeak_phonemes.txt:
-    bytes: 0
-    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    bytes: 176
+    sha256: 1016685d2b85b3bf60946b289ffa2557f813618bfd1f271c0277920ea499b163
   marytts/marytts-lang-it-5.2.jar:
     bytes: 2597058
     sha256: 852c0e3b14fcd2461169ea8f38397f3d878cd0af06e0701857031692dad66311
